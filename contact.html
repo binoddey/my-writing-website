@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch | Writer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav style="padding: 20px 0; text-align: left; max-width: 1100px; margin: 0 auto;">
+        <a href="index.html" style="text-decoration: none; color: var(--text-dark); font-weight: bold;">← Back to Home</a>
+    </nav>
+
+    <section class="contact-section">
+        <div class="contact-header">
+            <p class="subtitle">Contact</p>
+            <h2>Let's start a conversation.</h2>
+            <p class="sub-heading">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-form-wrapper">
+                <form 
+                    id="contactForm"
+                    action="https://formspree.io/f/xqeezzad"
+                    method="POST">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+
+            <div class="card contact-details-card">
+                <h3>Contact Info</h3>
+                <div class="detail-item">
+                    <span class="icon">✉</span>
+                    <p>binod.writes@gmail.com</p>
+                </div>
+                <div class="detail-item">
+                    <span class="icon">📍</span>
+                    <p>Based in India, available worldwide.</p>
+                </div>
+                <div class="social-links" style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px;">
+                    <p style="font-weight: bold; font-size: 0.9rem; margin-bottom: 10px;">Follow me</p>
+                    <a href="https://www.linkedin.com/in/binoddeyofficial" style="margin-right: 15px; color: var(--accent-brown);">LinkedIn</a>
+                    <a href="https://x.com/thebinoddey" style="margin-right: 15px; color: var(--accent-brown);">Twitter</a>
+                    <a href="https://medium.com/@binoddey" style="color: var(--accent-brown);">Medium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

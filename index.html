@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binod Dey | Writer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">BINOD<span class="highlight">.DEY</span></div>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="work.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="subtitle">Writer & Content Creator</p>
+                <h1>Words that move,<br>stories that stay.</h1>
+                <p class="description">
+                    I craft compelling narratives for brands, publications, and readers who 
+                    believe in the power of well-chosen words. From articles to books to 
+                    marketing copy, I bring ideas to life through thoughtful storytelling.
+                </p>
+                <div class="cta-group">
+                    <a href="work.html" style="text-decoration: none;">
+                        <button class="btn btn-dark">View My Work →</button>
+                    </a>
+
+                    <a href="contact.html" style="text-decoration: none;">
+                        <button class="btn btn-outline">Get in Touch</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="../Binod-profile.jpg" alt="Writer Portrait">
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!--Services section-->
+
+    <section class="services">
+        <h2 class="section-title">What I Do</h2>
+        <p class="sub-heading">Versatile writing services tailored to your needs</p>
+        
+        <div class="grid">
+            <div class="card service-card">
+                <div class="service-icon">✎</div>
+                <h3>Articles & Blog Posts</h3>
+                <p>Engaging content that informs and inspires</p>
+            </div>
+
+            <div class="card service-card">
+                <div class="service-icon">📖</div>
+                <h3>Books & Publications</h3>
+                <p>Long-form narratives that captivate readers</p>
+            </div>
+
+            <div class="card service-card">
+                <div class="service-icon">📢</div>
+                <h3>Social Media Writing</h3>
+                <p>Writing that drives brand visibility</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!--Portfolio section-->
+
+    <section class="portfolio">
+        <div class="portfolio-header">
+            <p class="subtitle">Portfolio</p>
+            <h2 class="section-title">My Work</h2>
+            <p class="sub-heading">A collection of writing projects spanning articles, books, and marketing copy.</p>
+        </div>
+
+        <div class="filter-tabs">
+            <button class="tab active" data-filter="all">All Work</button>
+            <button class="tab" data-filter="articles">Articles</button>
+            <button class="tab" data-filter="books">Books</button>
+            <button class="tab" data-filter="socialmedia">Social Media Writing</button>
+        </div>
+
+        <div class="grid portfolio-grid">
+            <div class="card project-card" data-category="articles">
+                <div class="card-meta">
+                    <span class="tag">Blog Posts & Articles</span>
+                    <span class="year">2024</span>
+                </div>
+                <h3 class="card-title">Dreams to Reality: Creating Opportunities for Children Who Aspire to Grow!</h3>
+                <p class="publication">Published in <strong>Medium</strong></p>
+                <p class="summary">In a country like India, development and growth are often at the forefront of national priorities. Yet, amidst this progress, a significant aspect remains neglected, the education of underprivileged children.</p>
+                <br>
+                <a href="https://medium.com/@binoddey/dreams-to-reality-creating-opportunities-for-children-who-aspire-to-grow-3e55d3fb5f47" target="_blank" class="btn-aesthetic">
+                    Read More <span class="arrow">↗</span>
+                </a>
+                
+            </div>
+
+            <div class="card project-card" data-category="books">
+                <div class="card-meta">
+                    <span class="tag">Books & Publications</span>
+                    <span class="year">2021</span>
+                </div>
+                <h3 class="card-title">Spoken English Mastery</h3>
+                <p class="publication">Published on <strong>Amazon</strong>, <strong>Flipkart</strong>, <strong>Google Play Books</strong></p>
+                <div class="book-image-container">
+                    <img src="../Untitled design (6).png" alt="Spoken English Mastery"> <br>
+                </div>
+                <!-- <p class="summary">Spoken English Mastery by Binod Dey is a comprehensive guide to help learners master the English language.</p> -->
+                <a href="https://www.amazon.in/Spoken-English-Mastery-Binod-Dey/dp/B09N1FB9XW" target="_blank" class="btn-aesthetic">
+                    View on Amazon <span class="arrow">↗</span>
+                </a>
+            </div>
+
+            <div class="card project-card" data-category="socialmedia">
+                <div class="card-meta">
+                    <span class="tag">Social Media Writing</span>
+                    <span class="year">2026</span>
+                </div>
+                <h3 class="card-title accent-text">LinkedIn Writing for Students, Founders, & Myself</h3>
+                <p class="summary">Documenting my journey while building meaningful projects, engaged audiences, and long-term opportunities in public, with clarity and consistency.<br> <br> <br>Comprehensive brand messaging and social media writing designed to drive personal branding, startup visibility, and sustainable growth at scale.</p>
+                <a href="https://www.linkedin.com/in/binoddeyofficial" target="_blank" class="btn-aesthetic">
+                    View LinkedIn <span class="arrow">↗</span>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div>
+            <a href="work.html" class="btn-aesthetic"> View More of My Works Here <span class="arrow">↗</span></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
